@@ -1,0 +1,17 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+@mixin flexLeft($direction) {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: $direction;
+}
+@mixin bgBanner {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
