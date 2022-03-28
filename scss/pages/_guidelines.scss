@@ -1,7 +1,7 @@
 //Tabla Paleta de color/Tigre
 
 .guidelines__palette {   
-    background-image:url("/dist/image/page_banners/tiger_banner0.jpg"); 
+    background-image:url("../image/page_banners/tiger_banner0.jpg"); 
     @include bgBannerCenter;  
     font-family: $work-sans;  
     font-weight: weight(medium);    
