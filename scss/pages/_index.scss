@@ -1,0 +1,25 @@
+
+.main {
+    padding: 0;
+    margin: 0;
+}
+.portada__imagen--banner {
+   @include flexCenter(column);
+    width: 100vw;
+    border-bottom-left-radius: 25%;   
+}
+.portada {  
+    font-family: $work-sans;  
+    padding-left: 5vw;
+    padding-right: 5vw;
+        &__text--title {
+        @extend %headline_xxlarge_tc;
+        }
+        &__text--paragraph {
+        @extend %paragraph_larger_pc;
+        }
+        &__text--paragraph2 {
+        @extend %paragraph_larger_pc;
+        }
+}
+

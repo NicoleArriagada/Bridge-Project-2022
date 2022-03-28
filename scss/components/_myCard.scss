@@ -1,0 +1,40 @@
+.card {
+    color: rgba($title-color,.9);     
+    margin: 10px;
+
+    &__text--title {
+        @extend %stc-title;      
+    }
+    &-img-top {         
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        padding-bottom: 2vh;   
+            &:hover {
+            filter: grayscale(80%);
+        }     
+    }    
+    &__text--paragraph {
+        @extend %CardParagraphColor;
+        text-align: justify;
+    }
+    &__button {
+        color:rgba($background-color,.7);
+        background-color: rgba($accent-color,.9);
+        border-radius: 3%;
+        width: 100px;
+        padding: 1vh;
+        align-self: flex-end; 
+        text-align: center;
+        text-decoration: none;
+            &:hover {
+                color: $paragraph-color;
+        }
+    }
+}
+.card, .card__text--title, .card__image, .card__text--paragraph, .card__button {
+    @extend %p-one-m-0;
+}//preguntar al profe.
+
+//text hover over image
+

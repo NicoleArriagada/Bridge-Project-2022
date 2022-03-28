@@ -1,0 +1,73 @@
+//margin and padding
+%c-bg-p-one-m-0 {
+    color:$background-color;
+    padding: 2vh;
+    margin: 0;
+}
+%p-one-m-0 {
+    padding: 2vh;
+    margin: 0;
+}
+// text by size and color
+%ac-title {
+    color:$accent-color;
+    font-size: 6vh;
+}
+%bc-title {
+    font-size: 5vh;
+    color: $background-color;
+}
+%tc-title {
+    font-size: 4vh;
+    color: $title-color;
+}
+%stc-title {
+    font-size: 2rem;
+    color: $subtitle-color;
+}
+%pc-title {
+    font-size: 2rem;
+    color: $paragraph-color;
+}
+%CardParagraphColor {
+    font-family: $montserrat-serif;
+    font-weight: weight(bold);
+    font-size: 1rem;
+    color: $paragraph-color;
+}
+//text by size and weight and color
+%headline_xxxlarge_ac {
+    font-size: 5rem;
+    font-weight: weight(bold);
+    color: $accent-color;
+}
+%headline_xxxlarge_bc {
+    font-size: 5rem;
+    font-weight: weight(bold);
+    color: $background-color;
+}
+%headline_xxlarge_tc {
+    font-size: xx-large;
+    font-weight: weight(bold);
+    color: $title-color;
+}
+%headline_xxlarge_ac {
+    font-size: xx-large;
+    font-weight: weight(bold);
+    color: $accent-color;
+}
+%subtitle_larger_stc {
+    font-size: larger;
+    font-weight: weight(medium);
+    color:$subtitle-color;
+}
+%paragraph_larger_pc {
+    font-size:larger;
+    font-weight: weight(regular);
+    color: $paragraph-color;
+}
+//round borders
+%bottom-radius {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}

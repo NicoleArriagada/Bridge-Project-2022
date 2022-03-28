@@ -1,15 +1,11 @@
-
+// <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+//<script src="funciones.js"> </script>
 $(function(){
   $("#nav-placeholder").load("nav.html")
 })
-
-// <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-//<script src="funciones.js"> </script>
-
-
-  $(function(){
-    $("#footer-placeholder").load("footer.html")
-  })
+$(function(){
+  $("#footer-placeholder").load("footer.html")
+})
 
 /*let namePerson; 
 console.log(namePerson);
@@ -37,7 +33,7 @@ console.log(contador)
 //
 let numero=1;
 
-//esteces iml´po
+//est muestra el proceso
 for (let i=0; i<10; i++) {
 console.log(numero)
 console.log(`i=${i}`)

@@ -11,38 +11,114 @@
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
+    <header>
    <!--Navigation bar-->
    <div id="nav-placeholder">
   </div>
+    </header>
   <!--end of Navigation bar-->
     <main>
       <!--Tabla Paleta de color/Tigre  -->
-      <div class="guidelines__palette container-fluid">       
-        <div class="guidelines__palette--bgcolor0">
+      <div class="guidelines__palette">       
+        <div class="guidelines__palette--bgcolor">
             <p class="guidelines__palette--title">Bridge Color Palette</p>
         </div>
+        <div class="guidelines__palette--bgcolor0">
+            <p class="guidelines__palette--text0">Your base background color | #ffffff color RGB value is (255,255,255)</p>
+        </div>
         <div class="guidelines__palette--bgcolor1">
-            <p class="guidelines__palette--text1">Your base background color | #ffffff color RGB value is (255,255,255)</p>
+            <p class="guidelines__palette--text1">Your most important text | #3a3335 color RGB value is (58,51,53)</p>
         </div>
         <div class="guidelines__palette--bgcolor2">
-            <p class="guidelines__palette--text2">Your most important text | #3a3335 color RGB value is (58,51,53)</p>
+            <p class="guidelines__palette--text2">Your second most important text | #7c7a7a color RGB value is (124,122,122)</p>
         </div>
         <div class="guidelines__palette--bgcolor3">
-            <p class="guidelines__palette--text3">Your second most important text | #7c7a7a color RGB value is (124,122,122)</p>
+            <p class="guidelines__palette--text3">Paragraphs | #494949 color RGB value is (73,73,73)</p>
         </div>
         <div class="guidelines__palette--bgcolor4">
-            <p class="guidelines__palette--text4">Paragraphs | #494949 color RGB value is (73,73,73)</p>
-        </div>
-        <div class="guidelines__palette--bgcolor5">
-            <p class="guidelines__palette--text5">Buttons & Links| #ff5d73 color RGB value is (255,93,115)</p>
-        </div>                      
-    </div>
+            <p class="guidelines__palette--text4">Accent & Buttons & Links| #ff5d73 color RGB value is (255,93,115)</p>
+        </div>        
+      </div>
       <br>
-      <!--Tarjetas de recursos  -->
+      <!--Tarjetas Ejemplo-->
       <div class="container-fluid">
+        <div class="guidelines__samples gx-0 row">  
+          <p class="guidelines__samples--title">Sample Cards</p>        
+          <div class="col-sm-12 cold-md-6 col-xl-6">         
+            <div class="shadow p-3 mb-5 bg-body rounded">
+              <div class="image">
+               <img src="./image/design_banners/coolors_banner.JPG" class="image__img card-img-top" alt="coolors_banner">
+               <a href="https://coolors.co/">                   
+                <div class="image__overlay image__overlay--blur">
+                  <div class="image__title">COOLORS</div> 
+                </div>
+              </a> 
+              </div>                             
+              <div class="card-body">
+                <p class="card-text">Find or create cool color palettes for your websites and designs. This site is optimized for digital products.</p>
+              </div>
+            </div>
+          </div>        
+            <div class="col-sm-12 col-md-3 col-xl-3 m-0 p-0 d-flex justify-content-center">
+              <div class="shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                <img src="/dist/image/profile_samples/place-holder image1.jpg" class="rounded-circle card-img-top shadow p-3 mb-5 bg-body rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Profile Card</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML & CSS</li>
+                  <li class="list-group-item">Vue</li>
+                  <li class="list-group-item">Python</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">LinkedIn</a>
+                  <a href="#" class="card-link">GitHub</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-xl-3 m-0 p-0 d-flex justify-content-center">
+              <div class="shadow p-3 mb-5 bg-body rounded" style="width: 18rem;">
+                <img src="/dist/image/profile_samples/place-holder image2.jpg" class="rounded-circle card-img-top shadow p-3 mb-5 bg-body rounded" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Profile Card</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">HTML & CSS</li>
+                  <li class="list-group-item">JavaScript & React</li>
+                  <li class="list-group-item">Ruby</li>
+                </ul>
+                <div class="card-body">
+                  <a href="#" class="card-link">LinkedIn</a>
+                  <a href="#" class="card-link">GitHub</a>
+                </div>
+              </div>
+            </div>        
+        </div>
+      </div>
+
+
+      <!--Tarjetas de Recursos
+      <div class="guidelines__samples">
+        <p class="guidelines__samples--title">Resource Sample Card</p>-->
+      <!--Ejemplo
+        <div class="resource__card card">
+          <p class="card__text--title">Resource Name</p>
+          <img class="card__image"  src="/dist/image/design_banners/coolors_banner.JPG" alt="coolors_banner">
+          <p class="card__text--paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugiat provident dolor? Aliquid itaque tenetur delectus voluptate cupiditate ipsam eos id repellendus blanditiis. Reiciendis labore, facilis porro aperiam quae tempore.</p>
+          <a class="card__button" href="https://www.w3schools.com">Go To</a>
+        </div>
+      </div>-->
+
+      <!--Tarjetas de recursos 
+      <div class= "guidelines__samples container-fluid">
+          <p class="guidelines__samples--title"><h2>Resource Sample Card</h2></p>
             <div class="row">            
-            <div class="col-sm-6">               
-                <h2 style="color:rgb(58,51,53,0.900)">Coding Resource Sample Card</h2>            
+            <div class="col-sm-6">
+              <div class="sample__rsccard">
+                <p class="samples__rsccard--title">Coding Resource Sample Card</p>
+              </div>
                     <div class="card text-start|center|end">               
                         <img class="card-img-top" src="./image/logo_sample.png" alt="w3s_logo" style="width: 5vw; border-color: rgb(255,93,115);">
                             <div class="card-body">
@@ -50,7 +126,7 @@
                                     <p class="card-text">Description</p>
                                       <div style="display: flex; justify-content: flex-end">
                                         <a class="btn btn-primary" href="#" role="button" style="background-color: rgb(255,93,115); border-color:rgb(255,93,115);">Go to</a>
-                                      </div> 
+                                      </div>
                             </div>
                     </div>
             </div>
@@ -76,7 +152,7 @@
                               <h4 class="card-title">Coolors</h4>
                                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nihil quidem officia, aliquid placeat recusandae maiores neque ea possimus quae cum tempore nam. Porro repellat necessitatibus ab. Harum, reiciendis enim.</p>
                                     <div style="display: flex; justify-content: flex-end;">
-                                      <a class="btn btn-primary" href="#" role="button" style="background-color: rgb(255,93,115); border-color:rgb(255,93,115);">Go to</a>
+                                      <a class="btn btn-primary" href="https://coolors.co" role="button" style="background-color: rgb(255,93,115); border-color:rgb(255,93,115);">Go to</a>
                                     </div>
                                   </div> 
                   </div>
@@ -85,8 +161,9 @@
         </div>
         <br>
         <br>
-        <br>  
-        <!--Team Bridge-->     
+        <br> 
+      -->
+        <!--Team Bridge
         <div class="container-fluid">
           <div class="row" style="display:flex; justify-content:flex-end;">  
             <div class="card col-sm-4" style="margin: 10px;">
@@ -131,7 +208,7 @@
             </div>
           </div>
         </div>
-        <!-- 
+       
         <div class="card" aria-hidden="true">
           <img src="..." class="card-img-top" alt="...">
           <div class="card-body">
@@ -153,8 +230,10 @@
     <br>
     <br>
   <!-- Footer -->
+  <footer>
     <div id="footer-placeholder">
-    </div>      
+    </div>
+  </footer>      
   <!-- Footer -->
   <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>

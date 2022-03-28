@@ -1,0 +1,51 @@
+.certifications__container {
+    width: 100vw;
+    height: 90vh;
+}
+.certifications__banner--text1 {
+    @extend %headline_xxxlarge_ac;
+    text-justify: left;  
+    height:100vh;      
+        &:hover {
+            color: transparent; 
+            background-color:$accent-color;
+    }
+}
+.certifications__banner--text2 {
+    font-size: 8rem;
+    font-weight: weight(bold);
+    text-align: center;    
+    color: transparent; 
+    text-justify: left;  
+    height: 100vh;      
+        &:hover {           
+            color: $background-color;
+        }
+}
+.certifications__banner {    
+    background-image: url("/dist/image/page_banners/tiger_banner1.jpg");
+    @include bgBannerCenter;  
+    height: 100vh;     
+    padding-bottom: 4vh;
+    padding-left: 2vw;
+        &:hover {
+            background-color: $accent-color;
+        }
+}
+.certifications__item--card {   
+    max-width: 14vw;  
+    padding-top: 3vh;    
+}
+.certification__button {   
+    background-color: $accent-color;
+    justify-content: center;    
+    height: 100px;
+    width: 100px; 
+    border-radius: 100%;
+    padding: 10vh;
+    margin: 5vh;
+}
+.certifications__item--text1 {
+    text-justify: center;   
+}
+

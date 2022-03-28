@@ -1,0 +1,64 @@
+//Tabla Paleta de color/Tigre
+
+.guidelines__palette {   
+    background-image:url("/dist/image/page_banners/tiger_banner0.jpg"); 
+    @include bgBannerCenter;  
+    font-family: $work-sans;  
+    font-weight: weight(medium);    
+}
+.guidelines__palette--bgcolor {
+    border-bottom-style: solid;
+    border-color: $accent-color;
+    border-width: 0.5px;
+}
+.guidelines__palette--title {    
+    @extend %headline_xxlarge_ac;
+    @extend %p-one-m-0;
+}
+.guidelines__palette--bgcolor0 {
+    background-color: rgba($background-color,.7);
+}
+.guidelines__palette--text0 {
+    color:$title-color;
+    font-size: 2vh;
+   @extend %p-one-m-0;
+}
+.guidelines__palette--bgcolor1 {
+    background-color: rgba($title-color,.9);
+}
+.guidelines__palette--text1 {  
+   font-size: 5vh;  
+}
+.guidelines__palette--text1, .guidelines__palette--text2, .guidelines__palette--text3, .guidelines__palette--text4 {
+    @extend %c-bg-p-one-m-0;
+}
+.guidelines__palette--bgcolor2 {
+    background-color: rgba($subtitle-color,.9);
+}
+.guidelines__palette--text2 {
+    font-size: 4vh;  
+}
+.guidelines__palette--bgcolor3 {
+    background-color: rgba($paragraph-color,.9);
+}
+.guidelines__palette--text3 {
+    font-size: 3vh;   
+}    
+.guidelines__palette--bgcolor4 {
+    background-color: rgba($accent-color,.9);
+}
+.guidelines__palette--text4 {
+    font-size: 2vh;  
+}
+
+//Tarjetas de recursos
+.guidelines__samples {
+    font-family: $work-sans;  
+}
+.guidelines__samples--title {
+    @extend %tc-title;
+    @extend %p-one-m-0;
+    font-weight: weight(medium);
+}
+
+//

@@ -1,0 +1,60 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+@mixin flexLeft($direction) {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: $direction;
+}
+@mixin flexRight($direction) {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    flex-direction: $direction;
+}
+@mixin bgBannerCenter {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@mixin bgBannerRight {
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+@mixin bgBannerTop {
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+//flex-wrap:wrap;
+
+// border decorations
+@mixin borderCard_pc {
+    border-style: solid;    
+    border-width: 0.5px;
+    border-color: $paragraph-color;
+}
+@mixin borderCard_ac {
+    border-style: solid;    
+    border-width: 0.5px;
+    border-color: $accent-color;
+}
+@mixin borderLeftTop {
+    border-top-style: solid;
+    border-top-width: 30px;
+    border-top-color: rgba($accent-color,.9);
+    border-left-style: solid;
+    border-left-width: 30px;
+    border-left-color: rgba($subtitle-color,.9);
+}
+@mixin topRightDrop {
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
