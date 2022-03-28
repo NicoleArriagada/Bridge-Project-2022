@@ -1,11 +1,11 @@
 // <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 //<script src="funciones.js"> </script>
-/*$(function(){
+$(function(){
   $("#nav-placeholder").load("nav.html")
 })
 $(function(){
   $("#footer-placeholder").load("footer.html")
-})*/
+})
 
 console.log("test");
 
